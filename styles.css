@@ -3,8 +3,8 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for better visibility */
 }
 
 header {
@@ -41,7 +41,8 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url('images/hero-bg.jpg'); /* Background image */
+    background-color: #000; /* Black background for hero section */
+    background-image: url('images/hero-bg.jpg'); /* Optional: Add a background image */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -78,6 +79,8 @@ header nav ul li a {
 .services {
     padding: 50px 20px;
     text-align: center;
+    background-color: #000; /* Black background for services section */
+    color: #fff; /* White text */
 }
 
 .services h2 {
@@ -92,13 +95,14 @@ header nav ul li a {
 }
 
 .card {
-    background-color: #fff;
+    background-color: #333; /* Dark gray cards for contrast */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
     margin: 20px;
     padding: 20px;
     text-align: center;
+    color: #fff; /* White text */
 }
 
 .card img {
@@ -113,7 +117,7 @@ header nav ul li a {
 
 .card p {
     font-size: 1rem;
-    color: #666;
+    color: #ccc; /* Light gray text for better readability */
 }
 
 footer {
